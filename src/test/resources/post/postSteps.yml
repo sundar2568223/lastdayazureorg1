@@ -1,0 +1,22 @@
+pipeline:
+  post:
+    always:
+      - echo Test
+    changed:
+      - echo Test
+    fixed:
+      - echo Test
+    regression:
+      - echo Test
+    aborted:
+      - echo Test
+    failure:
+      - echo Test
+    success:
+      - echo Test
+    unstable:
+      - echo Test
+    unsuccessful:
+      - echo Test
+    cleanup:
+      - echo Test
